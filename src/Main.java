@@ -40,7 +40,7 @@ public class Main {
     double endTime2 = System.nanoTime();
     double timeElapsed2 = (endTime2 - startTime2) / 1000000000;
 
-    System.out.println("BUBBLE SORT: " + timeElapsed2 + " seconds.");
+    System.out.println("INSERTION SORT: " + timeElapsed2 + " seconds.");
     System.out.println(Arrays.toString(insertionSorted) + "\n");
 
 
